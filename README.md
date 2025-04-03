@@ -1,6 +1,6 @@
 # 🕵️‍♂️ Fake News Detector
 
-This project is a **Fake News Detector** built using **Streamlit** and **Machine Learning** to classify news articles as *real* or *fake*.
+This project is a **Fake News Detector** that takes reference from a labeled dataset to classify news articles as *real* or *fake*. built using **Streamlit** and **Machine Learning** to classify news articles as *real* or *fake*.
 
 ## 🚀 Features
 - 🔍 Detects fake news using a **Logistic Regression** model.
@@ -52,4 +52,4 @@ Feel free to fork this repository and submit pull requests.
 This project is licensed under the **MIT License**.
 
 ---
-
+Made with ❤️ using **Python & Machine Learning**
