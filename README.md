@@ -52,4 +52,4 @@ Feel free to fork this repository and submit pull requests.
 This project is licensed under the **MIT License**.
 
 ---
-Made with ❤️ using **Python & Machine Learning**
+Made using **Python & Machine Learning**
