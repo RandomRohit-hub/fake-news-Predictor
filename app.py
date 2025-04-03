@@ -44,10 +44,13 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, y, test_size=0.2, stratif
 model = LogisticRegression()
 model.fit(X_train,Y_train)
 
+# Streamlit UI
+st.set_page_config(page_title="Fake News Detector", page_icon="📰")
+st.title("🕵️‍♂️ Fake News Detector")
+st.markdown("### Enter a news article below and find out if it's real or fake! 🧐")
 
-# website
-st.title('Fake News Detector')
-input_text = st.text_input('Enter news Article')
+# User input
+input_text = st.text_area("📝 Paste the news article here:")
 
 def prediction(input_text):
     input_data = vector.transform([input_text])
@@ -57,6 +60,9 @@ def prediction(input_text):
 if input_text:
     pred = prediction(input_text)
     if pred == 1:
-        st.write('The News is Fake')
+        st.error("🚨 The News is **Fake**! 🛑")
     else:
-        st.write('The News Is Real')
+        st.success("✅ The News is **Real**! 🎉")
+
+st.markdown("---")
+st.caption("🔍 Powered by AI & Machine Learning")
