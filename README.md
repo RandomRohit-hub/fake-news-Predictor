@@ -46,7 +46,7 @@ The model is trained on a dataset containing labeled fake and real news articles
 - **Classifier**: Logistic Regression.
 
 ## 🤝 Contributing
-Feel free to fork this repository and submit pull requests.
+Feel free to fork this repository and submit pull requests
 
 ## 📜 License
 This project is licensed under the **MIT License**.
